@@ -1,0 +1,20 @@
+{
+  "name": "stuff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0", /* changes local host */
+    "build": "next build",
+    "prettier": "prettier -write .", /* helps with strict usage of code */
+    "lint": "next lint" /* helps with code consistency and avoiding bugs */
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-next": "^12.2.0",
+    "prettier": "^2.7.1"
+  }
+}
